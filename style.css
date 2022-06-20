@@ -399,7 +399,7 @@ For desktops: 1025px to 1200px */
   }
   .hero-section {
     height: 100vh !important;
-    margin-top: 0.5rem;
+    margin-top: 0.5rem !important;
   }
 
   .carousel-sldier {
