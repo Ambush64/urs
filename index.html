@@ -26,7 +26,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top  navbar-expand-lg navbar-bg">
+  <nav class="navbar fixed-top  navbar-expand-lg ">
     <div class="container-fluid mx-4">
       <a class="navbar-brand" to="#" href="/">
         <img src="images/logo.jpg" alt="logo"></img>
@@ -36,7 +36,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">
               Home
@@ -56,6 +56,19 @@
             <a class="nav-link active" aria-current="page" href="#counter">
               Projects
             </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item ms-0 d-flex">
+            <figure class=" mt-auto">
+              <img src="images/call.svg" alt="call">
+            </figure>
+            <a class="nav-link  active" aria-current="page" href="tel:+91-87622-36377">
+              +91-8762236377
+            </a>
+
+
+
           </li>
         </ul>
       </div>
@@ -86,7 +99,7 @@
   <section id="counter">
     <section class="counter-section">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center counter-up">
           <div class="col-md-4 mb-lg-0 mb-md-0 mb-5">
             <h2>
               <span class="counter" data-target="50"></span>+
@@ -138,6 +151,49 @@
     </section>
     <Slider />
   </section>
+
+  <!-- Services -->
+  <div class="service container mt-4">
+    <div class="row">
+      <div class="col-6 service-left">
+        <h1> Business Solutions </h1>
+        <br />
+        <p>
+          Our production unit situated at Moodbidri,is spread over a spacious area. It is equipped with the latest
+          cutting-edge technology machines.
+          These machines work withavery high level of
+          precision,thus allowing for the creation of furniture meeting industry standards and
+          to our client's complete satisfaction.
+          <br />
+          <br />
+          <b>Rolling Shutters Provide</b>
+        </p>
+        <ul class="ps-5">
+          <li>
+            Protection,Security,Energy Efficiency,Privacy,Total Light Control
+          </li>
+        </ul>
+        <p>
+          <b> Features</b>
+
+        </p>
+        <ul class="ps-5">
+          <li>Security at its best by our rolling shutters.</li>
+          <li>Insulation from heat and energy saving.</li>
+          <li>Effective protection against the glaring sun and light in general-for complete privacy.</li>
+          <li>Rolling shutters help in weatherproofing.</li>
+          <li>Optimal with individually adapted operating mechanism.</li>
+          <li>Rolling shutter curtains are interlocking flat faced slats.</li>
+          <li>Remote control operated rolling shutter with motorized option.</li>
+          <li>Easy to install on any existing home and business.</li>
+          <li>Awide range of manually or electrically operated shutters to choose from.</li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <img src="images/3.jpg" class="img-fluid" alt="solution">
+      </div>
+    </div>
+  </div>
 
   <!-- About us -->
 
@@ -243,10 +299,11 @@
                     <input type="text" name="message" placeholder="Enter Your Message" class="form-control " />
                   </div>
                 </div>
-
-                <button type="submit" class="btn btn-style w-100">
-                  Submit
-                </button>
+                <div class="w-100 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-style ">
+                    Submit
+                  </button>
+                </div>
               </form>
             </div>
           </div>
@@ -268,18 +325,26 @@
               <h2>Support</h2>
               <ul>
                 <li>
+                  <img src="images/Email.svg" alt="email" style="
+                  width: 2.2rem;
+                  height: 2rem;
+              ">
                   <a href="mailto:unitedrollingshutter@gmail.com">
                     Email us
                   </a>
+
                 </li>
                 <li>
-                  <a href="tel:+91-8258-236377">Call: +91-8258-236377</a>
+                  <img src="images/call.svg" alt="call">
+                  <a href="tel:+91-8258-236377"> +91-8258-236377</a>
                 </li>
                 <li>
-                  <a href="tel:+91-87622-36377">Call: +91-8762236377</a>
+                  <img src="images/call.svg" alt="call">
+                  <a href="tel:+91-87622-36377"> +91-8762236377</a>
                 </li>
                 <li>
-                  <a href="tel:+91-89711-36808">Call: +91-89711-36808</a>
+                  <img src="images/call.svg" alt="call">
+                  <a href="tel:+91-89711-36808"> +91-89711-36808</a>
                 </li>
               </ul>
             </div>
@@ -301,13 +366,17 @@
               </ul>
             </div>
             <div class="col-6 ">
-              <h2>Visit us</h2>
+              <h2>Visit us
+                <img src="images/Location.svg" alt="call">
+              </h2>
+
               <p>
-                Main Road,Opp.Taluk Office-Near Swaraj Maidan
-                Moodbidri-574 227,Mangalore,D.K.
-                <!-- D. No. 5-129,Near Swarj Maidan,Moodbidri, Mangalore Higway, Moodbidri-574227 Mangalore,D.
-                K.,
-                KARNATAKA,INDIA -->
+                <a href="https://goo.gl/maps/ghyzo8GUFSHsLyQCA">
+                  Main Road,Opp.Taluk Office-Near Swaraj Maidan
+                  Moodbidri-574 227,Mangalore,D.K.
+                </a>
+
+
               </p>
             </div>
           </div>

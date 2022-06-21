@@ -92,6 +92,7 @@ ol {
 /* navbar */
 nav {
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  background-color: #e2f3fa;
 }
 
 .navbar-bg {
@@ -168,6 +169,47 @@ nav {
   font-size: 1.8rem;
 }
 
+/* projects */
+.counter-section h2 {
+  color: var(--white);
+}
+
+.counter-section {
+  background-color: #06041b;
+  padding: 2.5rem 0;
+}
+
+.counter-section p {
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.counter-section h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2.5rem;
+  color: var(--white);
+}
+
+.counter-up {
+  background-color: rgba(16, 11, 71, 0.5);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px -8px rgba(150, 170, 180, 0.5);
+}
+
+/* Service */
+
+.service .service-left h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.service-left :where(p, li) {
+  font-size: 1.6rem;
+}
+
 /* about-us */
 .about-us {
   margin: 4rem 0;
@@ -185,7 +227,7 @@ nav {
 
 /* info */
 .info-section {
-  background-color: var(--blue);
+  background-color: #e2f3fa;
   height: 60vh;
   padding: 2.5rem 0rem;
   margin-top: 2rem;
@@ -242,30 +284,6 @@ nav {
   transform: translateY(-7px);
 }
 
-/* projects */
-.counter-section h2 {
-  color: white;
-}
-
-.counter-section {
-  background-color: #d42e55;
-  padding: 2.5rem 0;
-}
-
-.counter-section p {
-  color: var(--white-color);
-  text-transform: uppercase;
-  font-size: 1.5rem;
-}
-
-.counter-section h1 {
-  font-size: 4rem;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 2.5rem;
-  color: #fff;
-}
-
 /* carousel */
 
 .carousel-sldier {
@@ -302,6 +320,16 @@ nav {
   /* font-weight: lighter; */
 }
 
+.contact-right {
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid var(--secondary-blue);
+}
+
+.contact-right button {
+  width: 35%;
+}
+
 .contact-right .main-hero-para {
   font-size: 1.5rem;
   margin: 0;
@@ -315,7 +343,7 @@ nav {
 footer {
   padding: 3rem 0;
   margin-top: 1rem;
-  background-color: var(--sky-blue) !important;
+  background-color: #e2f3fa !important;
   color: var(--secondary-blue);
 }
 
@@ -334,6 +362,10 @@ footer li {
 
 .footer-section div p {
   font-size: 1.8rem;
+}
+
+.footer-section h2 {
+  font-weight: 600;
 }
 
 footer li:hover {
