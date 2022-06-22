@@ -207,6 +207,7 @@ nav {
 
 .counter-section h2 {
   color: #000000;
+  font-weight: 600;
 }
 
 .counter-section {
@@ -216,6 +217,7 @@ nav {
 
 .counter-section p {
   color: #000000;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 1.5rem;
 }
